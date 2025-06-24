@@ -1,5 +1,6 @@
 name: Build Customer API - Generate Kong Configs
-
+permissions:
+  contents: write
 on:
   workflow_dispatch:
   # Run if someone pushes to the feature branch (during development)
